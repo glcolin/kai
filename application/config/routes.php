@@ -38,7 +38,9 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "kai";
+
+define('Controller_Name',$route['default_controller']);
 $route['404_override'] = '';
 
 
